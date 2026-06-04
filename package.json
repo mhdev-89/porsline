@@ -1,0 +1,13 @@
+{
+  "name": "porsline-sync-server",
+  "version": "1.0.0",
+  "description": "Central database for shared quiz answers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
