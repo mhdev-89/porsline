@@ -1,0 +1,12 @@
+version: 1
+
+services:
+  app:
+    build:
+      command: npm install
+
+    start:
+      command: npm start
+
+    ports:
+      - 3000
